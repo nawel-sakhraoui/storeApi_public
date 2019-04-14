@@ -51,15 +51,15 @@ var https 			= require('http'),
     require ("./app/createindices.js")(elasticsearch, elasticurl);
     require ("./app/store.js")(app,io, elasticsearch, elasticurl, jwt, CryptoJS );
     require ("./app/userAccount.js")(app,io,elasticsearch, elasticurl, jwt, CryptoJS );
-    require ("./app/address.js")(app, elasticsearch, elasticurl, jwt, CryptoJS, fs );
+  //  require ("./app/address.js")(app, elasticsearch, elasticurl, jwt, CryptoJS, fs );
 
-    require ("./app/delivery.js")(app, elasticsearch, elasticurl, jwt, CryptoJS );
+    //require ("./app/delivery.js")(app, elasticsearch, elasticurl, jwt, CryptoJS );
 
-    require ("./app/cart.js")(app,elasticsearch, elasticurl, jwt, CryptoJS );
-    require ("./app/article.js")(app,elasticsearch, elasticurl, jwt, CryptoJS );
-    require ('./app/myhome.js')(app, elasticsearch, elasticurl, jwt, CryptoJS); 
-    require ("./app/ongoing.js")(app, io, elasticsearch, elasticurl, jwt, CryptoJS );
-    require ("./app/message.js")(app, io, elasticsearch, elasticurl, jwt, CryptoJS );
+    //require ("./app/cart.js")(app,elasticsearch, elasticurl, jwt, CryptoJS );
+    //require ("./app/article.js")(app,elasticsearch, elasticurl, jwt, CryptoJS );
+  //  require ('./app/myhome.js')(app, elasticsearch, elasticurl, jwt, CryptoJS); 
+ //   require ("./app/ongoing.js")(app, io, elasticsearch, elasticurl, jwt, CryptoJS );
+   // require ("./app/message.js")(app, io, elasticsearch, elasticurl, jwt, CryptoJS );
 
     
     
