@@ -1,5 +1,5 @@
 *.swp
 *.swn
-*.~lock.*
+*.bin
 node_modules/
 images/
